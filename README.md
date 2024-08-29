@@ -7,4 +7,5 @@ Butona basılmadan reset durumunda ise direkt kullanıcı koduna atlama işlemi 
 
 pyuartstm.py arayüzü kullanılarak istenilen baud rate de intel hex kodu uart üzerinden gönderilebilir.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/71888fd4-2bf9-4c4f-92f2-94e8941d58d1)
+
