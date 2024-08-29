@@ -1,4 +1,10 @@
-![image](https://github.com/user-attachments/assets/e50fd328-8c36-4b1f-a2a4-1e33310d5b82)# UART_BOOTLOADER_F4
+#UART_BOOTLOADER_F4
+
+Butona basılı durumda işlemci resetlendiğinde boot moduna girilir. Bu modda 
+uart üzerinden gönderilen Intel HEX formatlı dosya işlemcide parse edilerek ilgili flash
+adreslerine yazılır. SOnrasında atlama yapılarak yazılan kod çalıştırılır.
+Butona basılmadan reset durumunda ise direkt kullanıcı koduna atlama işlemi yapılır.
+
+pyuartstm.py arayüzü kullanılarak istenilen baud rate de intel hex kodu uart üzerinden gönderilebilir.
 
 ![Uploading image.png…]()
-
